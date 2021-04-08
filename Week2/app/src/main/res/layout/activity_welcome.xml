@@ -147,7 +147,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/skipButt"
         android:layout_width="83dp"
         android:layout_height="64dp"
         android:text="Skip"
