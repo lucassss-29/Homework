@@ -24,15 +24,14 @@
         android:id="@+id/textView2"
         android:layout_width="336dp"
         android:layout_height="65dp"
+        android:fontFamily="@font/sfprodisplayregular"
         android:text="Your favourite foods delivered fast at your door."
         android:textColor="#30384F"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView11"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367"
+        app:layout_constraintVertical_bias="0.427"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -43,13 +42,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588"
+        app:layout_constraintVertical_bias="0.604"
         app:srcCompat="@drawable/gradient" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="170dp"
         android:layout_height="66dp"
+        android:fontFamily="@font/sofiapromediumaz"
         android:text="GOOGLE"
         android:textColor="#000000"
         android:textSize="16dp"
@@ -71,6 +71,7 @@
         android:id="@+id/button2"
         android:layout_width="170dp"
         android:layout_height="66dp"
+        android:fontFamily="@font/sofiapromediumaz"
         android:text="FACEBOOK"
         android:textColor="#000000"
         android:textSize="16dp"
@@ -92,15 +93,17 @@
         android:id="@+id/textView6"
         android:layout_width="107dp"
         android:layout_height="28dp"
+        android:fontFamily="@font/sfprodisplayregular"
         android:lines="1"
         android:text="sign in with"
         android:textColor="#FFFFFF"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.567"
+        app:layout_constraintVertical_bias="0.607"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -111,10 +114,10 @@
         android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56"
+        app:layout_constraintVertical_bias="0.599"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -125,16 +128,17 @@
         android:textColor="#FFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintHorizontal_bias="0.182"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56"
+        app:layout_constraintVertical_bias="0.599"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="363dp"
         android:layout_height="67dp"
+        android:fontFamily="@font/sfprodisplayregular"
         android:text="Start with email or phone"
         app:backgroundTint="#8DAFA5A5"
         app:cornerRadius="30dp"
@@ -150,6 +154,7 @@
         android:id="@+id/skipButt"
         android:layout_width="83dp"
         android:layout_height="64dp"
+        android:fontFamily="@font/sfprodisplayregular"
         android:text="Skip"
         android:textColor="#FB8C00"
         android:textSize="16dp"
@@ -167,17 +172,17 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/signInText"
         android:layout_width="116dp"
         android:layout_height="42dp"
+        android:fontFamily="@font/sfprodisplayregular"
         android:lines="1"
         android:text="Sign In"
-
         android:textColor="#FFFFFF"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.945"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.924"
@@ -187,6 +192,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/sfprodisplayregular"
         android:text="Already have an account? "
         android:textColor="#FFFFFF"
         android:textSize="18dp"
@@ -203,15 +209,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="167dp"
-        android:text="Welcome"
+        android:fontFamily="@font/sofiapromediumaz"
+        android:text="Welcome to"
         android:textColor="#111719"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintVertical_bias="0.288" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sofiaprosemiboldaz"
+        android:text="Food Hub"
+        android:textColor="#FE724C"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

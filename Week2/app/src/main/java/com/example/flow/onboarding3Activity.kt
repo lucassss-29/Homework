@@ -13,8 +13,8 @@ class onboarding3Activity : AppCompatActivity() {
         supportActionBar?.hide()
         val nextButton3 = findViewById<Button>(R.id.nextButt3)
         nextButton3.setOnClickListener {
-            //val intent = Intent(this, onboarding3Activity::class.java)
-            //startActivity(intent)
+            val intent = Intent(this, WelcomeActivity::class.java)
+            startActivity(intent)
         }
     }
 }
